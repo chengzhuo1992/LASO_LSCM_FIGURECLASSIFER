@@ -5,7 +5,6 @@ import os.path as op
 def MainPath():
     main_path = input("请手动查阅文件夹的路径：")
     return main_path
-
 def SetPath():
     set_path =  input("请手动输入需要建立文件的主目录:")
     if not os.path.exists(set_path):
