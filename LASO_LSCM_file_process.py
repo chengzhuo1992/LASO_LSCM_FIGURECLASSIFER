@@ -91,7 +91,6 @@ def Row_Process(set_path):
 
             for i in range(0,192):
                 name = filelist[i]
-
                 if 0 <= i < 15:
                     shutil.move(os.path.join(scrpath,name),os.path.join(tarpath1,name))
                 elif 16 <= i < 31:
