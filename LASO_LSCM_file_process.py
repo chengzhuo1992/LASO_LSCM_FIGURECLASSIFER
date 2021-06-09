@@ -1,7 +1,6 @@
 import os
 import shutil
 
-
 def MainPath():
     main_path = input("请手动查阅文件夹的路径：")
     return main_path
@@ -121,7 +120,7 @@ def file_process(main_path,set_path):
     Slide_Process(main_path,set_path)
     Channel_Process(set_path)
     Row_Process(set_path)
-    print("Done!!")
+    print("one!!")
 
 if __name__ == "__main__":
     file_process(main_path=MainPath(),set_path=SetPath())
